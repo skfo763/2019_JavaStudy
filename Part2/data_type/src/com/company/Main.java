@@ -1,7 +1,5 @@
 package com.company;
 
-import java.util.Scanner;
-
 /* 위 키워드는 Java에서 예약어로 지정해놓은 단어들입니다.
 abstract  continue  for         new        switch
 assert    default   goto        package    synchronized
@@ -32,10 +30,13 @@ List
 Map
  */
 
+import java.util.Scanner;
+
 public class Main {
 
-
-    public static void main(String[] args) {        // main 메소드
+    public static void main(String[] args) {
+	    char x = 'a';
+	    System.out.println(x+x);
         int a;          // int형 변수 a
         char b;         // char형 변수 b
         boolean c;      // boolean형 변수 c
@@ -66,8 +67,6 @@ public class Main {
 
     }
 
-    /*
-    Java는 모두 클래스로 구성되어 있습니다.
-    클래스는 선언된 변수를 의미하는 '멤버 필드'와, 해당 변수를 활용해 조작/제어 등의 기능을 수행하는 '멤버 메소드'로 이루어져 있습니다.
-    */
+    /* Java는 모두 클래스로 구성되어 있습니다.
+    클래스는 선언된 변수를 의미하는 '멤버 필드'와, 해당 변수를 활용해 조작/제어 등의 기능을 수행하는 '멤버 메소드'로 이루어져 있습니다. */
 }
